@@ -1,252 +1,245 @@
+# 📄 System Documentation
 
-## 🔍 Skill Search
-
-Prikaz vještina zaposlenika kroz jednostavan i pregledan UI.
-
-### Opis
-
-"Skill Search" omogućava brzo pretraživanje zaposlenika prema njihovim vještinama, trenutno postignutim nivoima i ciljevima. Korisnici mogu pregledati detalje o svakom zaposleniku i njihovom napretku kroz pregledne kartice.
-
-### Ključne funkcionalnosti
-- Pretraga zaposlenika po vještinama
-- Prikaz trenutnih i ciljanih vještinskih nivoa
-- Grid layout sa karticama
-- Navigacija kroz lijevi meni (Skill Search, Buckets, Evaluation, People)
-- Detaljan prikaz svakog zaposlenika (“See Full” dugme)
-
-### Ko koristi
-- HR timovi
-- Menadžeri timova
-- Zaposlenici koji žele uvid u vlastiti ili timski razvoj
-
-### Interakcija
-Korisnik unosi vještinu u polje za pretragu → sistem prikazuje sve zaposlenike koji odgovaraju kriteriju → klikom na “See Full” otvaraju se detalji o zaposleniku.
-
-![Skill Search](images/skill_search.png)
+**Last updated: 04. April 2025**
 
 ---
 
-## 🔎 Skill Search – Rezultati
-
-Prikaz rezultata nakon unosa konkretne vještine.
-
-### Opis
-
-Korisnik je unio konkretnu vještinu ("Business Analyst") i prikazani su svi relevantni kandidati, kao i potencijalni dobri kandidati koji se mogu razviti u traženom smjeru.
-
-### Ključne funkcionalnosti
-- Filtriranje kandidata prema unesenoj vještini
-- Prikaz broja pronađenih kandidata
-- Sekcija za "potential good candidates"
-- Mogućnost otvaranja detalja za svakog kandidata
-
-### Ko koristi
-- HR menadžeri koji traže zaposlenike za određenu poziciju
-- Mentori koji žele usmjeriti zaposlenike ka novim ciljevima
-
-### Interakcija
-Korisnik unosi naziv vještine → sistem filtrira i prikazuje relevantne profile → dodatno prikazuje potencijalne kandidate za razvoj → korisnik može otvoriti svaki profil.
-
-![Skill Search Results](images/skill_search_results.png)
+## 📚 Table of Contents
+- [🧠 Skill Search](#-skill-search)
+- [🧠 Skill Search – Results View](#-skill-search--results-view)
+- [🧠 Skill Search – No Direct Results View](#-skill-search--no-direct-results-view)
+- [🧱 Buckets View](#-buckets-view)
+- [🧱 Bucket Detail View](#-bucket-detail-view)
+- [➕ Add Bucket View](#-add-bucket-view)
+- [✏️ Edit Bucket Level View](#-edit-bucket-level-view)
+- [➕ Add Skill / Expectation / Tool / Knowledge Modal](#-add-skill--expectation--tool--knowledge-modal)
+- [➕ Add New Level to Bucket](#-add-new-level-to-bucket)
+- [👥 Team Overview View](#-team-overview-view)
 
 ---
 
-## 🤔 Skill Search – Bez direktnih rezultata
+# 🧠 Skill Search
 
-Prikaz kada ne postoji direktno poklapanje, ali postoje potencijalni kandidati.
+## Opis
+Stranica omogućava superadminu i Hani-ju da pretražuju sve zaposlenike po vještinama. Rezultati pretrage prikazani su kao kartice sa osnovnim informacijama o zaposleniku.
 
-### Opis
+## Ključne funkcionalnosti
+- Skill Search input za pretragu vještina
+- Brojač pronađenih korisnika ("Found 100")
+- Lista zaposlenika prikazana kroz kartice
+- Kartica prikazuje ime, glavnu i sekundarnu rolu, trenutni cilj i dugme za detaljan pregled ("See Full")
+- Sidebar za navigaciju kroz glavne sekcije (Skill Search, Buckets, Evaluation, People)
 
-Sistem nije pronašao nijednog zaposlenika koji tačno odgovara pretrazi, ali je predložio jednog potencijalnog kandidata koji bi se mogao razviti u tom smjeru.
+## Ko koristi
+Superadmin i CTO (Hani) za brzo pronalaženje zaposlenih na osnovu vještina i planiranje resursa.
 
-### Ključne funkcionalnosti
-- Identifikacija potencijalno dobrih kandidata
-- Fallback prikaz kada nema direktnih rezultata
-- Omogućavanje daljnje evaluacije kandidata
-
-### Ko koristi
-- HR specijalisti u potrazi za talentima koji se mogu razvijati
-- Mentori koji prate napredak i razvoj vještina
-
-### Interakcija
-Korisnik unosi traženu vještinu → sistem ne pronalazi tačno poklapanje → prikazuje potencijalne kandidate koji mogu biti relevantni za dalji razvoj.
-
-![Skill Search No Results](images/skill_search_no_results.png)
+## Interakcija
+Unos ključne riječi u polje za pretragu filtrira prikazane zaposlenike. Klik na "See Full" otvara detaljan profil zaposlenika. Klik na navigaciju u sidebaru vodi na druge sekcije dashboarda.
 
 ---
 
-## 🪣 Buckets Overview
-
-Pregled različitih tehničkih rola organizovanih u 'buckets'.
-
-### Opis
-
-“Buckets” predstavljaju grupisane tehničke pozicije sa specifičnim opisima i nivoima kompetencija (Lvl1, Lvl2, Lvl3). Svaki bucket je lako pretraživ i može se uređivati direktno iz ovog prikaza.
-
-### Ključne funkcionalnosti
-- Pretraga buckets prema nazivu
-- Dodavanje novih buckets
-- Prikaz opisa i nivoa vještina za svaki bucket
-- Mogućnost uređivanja svakog bucketa
-
-### Ko koristi
-- HR timovi za definisanje uloga
-- Tehnički lideri i mentori
-- Menadžeri za planiranje karijernih putanja
-
-### Interakcija
-Korisnik može pretraživati postojeće buckets → kliknuti na “Edit Bucket” za uređivanje → dodavati nove buckets pomoću “Add Bucket” dugmeta.
-
-![Buckets Overview](images/buckets_overview.png)
+![🧠 Skill Search](images/skill_search.png)
 
 ---
 
-## 🧱 Bucket Details – Software Engineer
+# 🧠 Skill Search – Results View
 
-Detaljan prikaz razina vještina i očekivanja za specifičan bucket.
+## Opis
+Stranica prikazuje rezultate pretrage nakon što admin ili CTO pretraže određenu vještinu. Prikazuje direktne poklapanja i AI-predložene potencijalno dobre kandidate.
 
-### Opis
+## Ključne funkcionalnosti
+- Search bar sa prikazom unesenog termina (npr. "Business Analyst")
+- Prikaz broja direktnih pogodaka ("Found 3")
+- Kartice zaposlenika sa imenom, trenutnom i sekundarnom rolom, trenutnim ciljem i dugmetom "See Full"
+- Sekcija za prikaz potencijalno dobrih kandidata ("Found 1 Potential good candidates")
 
-Unutar odabranog bucketa (npr. “Software Engineer”), prikazane su sve razine (Level 2–5) sa pripadajućim opisima očekivanja, potrebnih vještina, alata i znanja. Korisnik može dodavati nove razine ili uređivati postojeće.
+## Ko koristi
+Superadmin i CTO (Hani) za traženje zaposlenih koji odgovaraju projektu ili otvorenoj poziciji.
 
-### Ključne funkcionalnosti
-- Prikaz hijerarhijskih razina za odabranu rolu
-- Detaljni opisi: Expectations, Skills, Tools, Knowledge, To Advance
-- Navigacija između nivoa
-- Uređivanje i dodavanje novih razina
-
-### Ko koristi
-- Tehnički mentori za strukturisani razvoj zaposlenika
-- HR timovi za mapiranje karijernih putanja
-- Zaposlenici koji žele razumjeti zahtjeve viših pozicija
-
-### Interakcija
-Korisnik bira bucket → prikazuju se sve razine (npr. Level 2 do Level 5) → klikom na svaku razinu prikazuju se detalji → moguće je dodati novu ili uređivati postojeću razinu.
-
-![Bucket Details](images/bucket_details.png)
+## Interakcija
+Unos termina u search bar i prikaz rezultata. Klik na "See Full" otvara detaljan profil korisnika. Pregled i poređenje direktnih i AI-predloženih kandidata.
 
 ---
 
-## ➕ Add New Bucket
-
-Interfejs za kreiranje novog tehničkog bucketa.
-
-### Opis
-
-Korisnik može definisati novi bucket (npr. novu ulogu ili poziciju), dodati naslov i početne razine (levels). Interfejs je jednostavan i omogućava brzo strukturisanje novih buckets unutar sistema.
-
-### Ključne funkcionalnosti
-- Unos naziva novog bucketa
-- Dodavanje levela pomoću “Add Level +” dugmeta
-- Dugme za spremanje kompletnog bucketa
-- Integracija sa sistemom za pretragu buckets
-
-### Ko koristi
-- HR timovi koji definišu nove uloge
-- Organizacijski dizajneri
-- Tehnički lideri koji žele formalizirati razvojne putanje
-
-### Interakcija
-Korisnik unosi naziv → dodaje željeni broj nivoa → klikom na “Save Bucket” sprema novu strukturu.
-
-![Add Bucket](images/add_bucket.png)
+![🧠 Skill Search – Results View](images/skill_search_result.png)
 
 ---
 
-## ✏️ Edit Bucket Level
+# 🧠 Skill Search – No Direct Results View
 
-Uređivanje pojedinačnih nivoa unutar bucketa (npr. Software Engineer Level 1).
+## Opis
+Stranica prikazuje situaciju kada nema direktnih poklapanja za unesenu vještinu, ali se prikazuje AI-predložen kandidat koji ima srodne kompetencije.
 
-### Opis
+## Ključne funkcionalnosti
+- Search bar sa prikazom pretraženog termina (npr. "Business Analyst")
+- Obavijest "Found 1 Potential good candidates"
+- Kartica AI-predloženog zaposlenika sa imenom, rolom, sekundarnom rolom i trenutnim ciljem
+- Dugme "See Full" za otvaranje detaljnog profila
 
-Ovaj prikaz omogućava korisnicima da uređuju sve atribute jednog nivoa: naziv, očekivanja, potrebne vještine, alate, znanje i korake potrebne za napredovanje. Takođe je moguće dodati nove nivoe direktno iz ove forme.
+## Ko koristi
+Superadmin i CTO (Hani) kada žele otkriti kandidate sa potencijalom za rolu, čak i ako ne postoji direktan match.
 
-### Ključne funkcionalnosti
-- Uređivanje naslova nivoa i svih sekcija (Expectations, Skills, Tools, Knowledge, To Advance)
-- Dodavanje novih nivoa pomoću “Add Level +”
-- Spremanje promjena unutar kompletnog bucketa
-
-### Ko koristi
-- Mentori i tehnički lideri koji žele definisati jasne putanje razvoja
-- HR specijalisti koji upravljaju karijernim okvirima
-
-### Interakcija
-Korisnik klikne na određeni nivo → uređuje njegov sadržaj → dodaje dodatne nivoe ako je potrebno → klikom na “Save Bucket” čuva sve promjene.
-
-![Edit Bucket Level](images/edit_bucket_level.png)
+## Interakcija
+Unos termina u search bar → prikaz potencijalnih kandidata. Klik na "See Full" za pregled detaljnog profila.
 
 ---
 
-## 🧩 Add Skill/Expectation/Tool/Knowledge
-
-Modalni prozor za unos nove stavke unutar nivoa bucketa.
-
-### Opis
-
-Ova komponenta omogućava korisniku da doda novi unos (npr. vještinu, očekivanje, alat ili znanje) kroz jednostavan i fokusiran modalni dijalog. Unos se automatski povezuje sa aktivnim nivoom unutar bucketa.
-
-### Ključne funkcionalnosti
-- Unos nove vrijednosti kroz formu
-- Višenamjenska upotreba za različite sekcije (Skill, Tool, Expectation, itd.)
-- Dugme za potvrdu unosa (“Save Skill”)
-
-### Ko koristi
-- Mentori i HR timovi koji kreiraju sadržaj unutar buckets
-- Tehnički lideri koji žele dodati ključne kompetencije
-
-### Interakcija
-Korisnik klikne na “Add” unutar sekcije (npr. Skills) → otvara se modal → unosi naziv → klikne “Save Skill” → unos se dodaje u odgovarajuću sekciju.
-
-![Add Skill Modal](images/add_skill_modal.png)
+![🧠 Skill Search – No Direct Results View](images/skill_search_no_result.png)
 
 ---
 
-## 🆕 Add New Level in Bucket
+# 🧱 Buckets View
 
-Forma za unos novog nivoa unutar specifičnog bucketa.
+## Opis
+Stranica omogućava superadminu i CTO-u da pregledaju, pretražuju i uređuju sve postojeće bucket-e (uloge) unutar firme.
 
-### Opis
+## Ključne funkcionalnosti
+- Search bar za pretragu bucket-a po imenu
+- Dugme "Add Bucket" za kreiranje nove uloge
+- Kartice za svaki bucket sa imenom, opisom, nivoima i dugmetom "Edit Bucket"
+- Sidebar za navigaciju između sekcija
 
-Korisnici mogu dodati novi nivo za određenu rolu (npr. Software Engineer). Svaka sekcija – Expectations, Skills, Tools, Knowledge i To Advance – može se individualno popuniti kako bi se definisali zahtjevi i ciljevi tog nivoa.
+## Ko koristi
+Superadmin i CTO (Hani) za strukturiranje karijernih puteva i upravljanje pozicijama unutar firme.
 
-### Ključne funkcionalnosti
-- Unos naziva nivoa (Level Title)
-- Pojedinačna polja za sve važne kategorije: Expectations, Skills, Tools, Knowledge, To Advance
-- Dugme za dodavanje novog nivoa (“Add Level +”)
-- Dugme za spremanje svih promjena u bucketu
-
-### Ko koristi
-- HR i organizacioni timovi
-- Tehnički lideri koji žele proširiti razvojne putanje
-
-### Interakcija
-Korisnik klikne “Add Level +” → ispunjava potrebna polja → klikne “Save Bucket” za čuvanje nove strukture sa dodatim nivoom.
-
-![Add Bucket Level](images/add_bucket_level.png)
+## Interakcija
+Unos termina u "Bucket Search" filtrira bucket-e. Klik na "Add Bucket" otvara formu za kreiranje nove uloge. Klik na "Edit Bucket" vodi na uređivanje bucket-a.
 
 ---
 
-## 👥 Team Overview
+![🧱 Buckets View](images/buckets_view.png)
 
-Centralizovani prikaz svih timova u organizaciji.
+---
 
-### Opis
+# 🧱 Bucket Detail View
 
-Korisnici mogu brzo pregledati sve postojeće timove, uključujući naziv tima i ime njihovog vođe. Svaki tim ima opcije za pregled detalja ("View") i uređivanje ("Edit").
+## Opis
+Detaljni pregled pojedinačnog bucket-a (uloge), gdje su prikazani svi nivo-i i njihove specifične informacije.
 
-### Ključne funkcionalnosti
-- Prikaz kartica svih timova
-- Pretraga timova po nazivu
-- Prikaz vođe tima (Team Lead)
-- Dugmad za “View” i “Edit” svakog tima
-- Mogućnost prebacivanja prikaza (grid/list)
+## Ključne funkcionalnosti
+- Pregled svih nivoa
+- "Add Level +" dugme za kreiranje novog nivoa
+- Detalji selektovanog nivoa (Expectations, Skills, Tools, Knowledge, To Advance)
+- Dugme "Edit Level" za uređivanje informacija
 
-### Ko koristi
-- Menadžeri timova
-- Organizacijski administratori
-- HR i analitički timovi
+## Ko koristi
+CTO (Hani) i Superadmin za definisanje karijernih puteva.
 
-### Interakcija
-Korisnik pretražuje tim po nazivu → prikazuju se relevantni timovi sa osnovnim podacima → klikom na “View” dobija se detaljan uvid, a klikom na “Edit” se uređuje sastav ili info o timu.
+## Interakcija
+Klik na nivo u hijerarhiji prikazuje njegove detalje. Klik na "Edit Level" omogućava uređivanje.
 
-![Team Overview](images/team_overview.png)
+---
+
+![🧱 Bucket Detail View](images/bucket_detail_view.png)
+
+---
+
+# ➕ Add Bucket View
+
+## Opis
+Stranica za kreiranje novog bucket-a (uloge) u firmi.
+
+## Ključne funkcionalnosti
+- Unos naslova novog bucket-a
+- Dugme "Add Level +" za dodavanje nivoa
+- Dugme "Save Bucket" za potvrdu kreiranja
+
+## Ko koristi
+Superadmin i CTO (Hani) za kreiranje novih karijernih puteva.
+
+## Interakcija
+Unos naslova bucket-a i kreiranje nivoa. Klik na "Save Bucket" za potvrdu.
+
+---
+
+![➕ Add Bucket View](images/bucket_add_view.png)
+
+---
+
+# ✏️ Edit Bucket Level View
+
+## Opis
+Stranica omogućava uređivanje postojećeg nivoa unutar bucket-a.
+
+## Ključne funkcionalnosti
+- Editable polje za naziv nivoa
+- Sekcije za Expectations, Skills, Tools, Knowledge, To Advance
+- "Edit Level" dugme za spremanje izmjena
+- "Save Bucket" dugme za globalno spremanje
+
+## Ko koristi
+CTO (Hani) i Superadmin za održavanje karijernih puteva.
+
+## Interakcija
+Direktno uređivanje i spremanje sekcija.
+
+---
+
+![✏️ Edit Bucket Level View](images/bucket_edit_level_view.png)
+
+---
+
+# ➕ Add Skill / Expectation / Tool / Knowledge Modal
+
+## Opis
+Popup modal za dodavanje novih skillova, očekivanja, alata ili znanja u nivo.
+
+## Ključne funkcionalnosti
+- Polje za unos naziva
+- Dugme "Save Skill" za potvrdu unosa
+
+## Ko koristi
+Superadmin i CTO (Hani) dok uređuju nivoe.
+
+## Interakcija
+Unos i spremanje novog elementa u odgovarajući odjeljak.
+
+---
+
+![➕ Add Skill / Expectation / Tool / Knowledge Modal](images/bucket_add_skill_modal.png)
+
+---
+
+# ➕ Add New Level to Bucket
+
+## Opis
+Prikazuje inicijalno stanje novog nivoa nakon dodavanja u bucket.
+
+## Ključne funkcionalnosti
+- Unos naziva novog nivoa
+- Prazna polja za sekcije
+- Spremanje izmjena
+
+## Ko koristi
+Superadmin i CTO (Hani) za proširivanje karijernih puteva.
+
+## Interakcija
+Unos informacija i spremanje novog nivoa.
+
+---
+
+![➕ Add New Level to Bucket](images/bucket_add_level_view.png)
+
+---
+
+# 👥 Team Overview View
+
+## Opis
+Stranica prikazuje pregled svih formiranih timova u firmi.
+
+## Ključne funkcionalnosti
+- Search bar za pretragu timova
+- Grid kartice za svaki tim (naziv, team lead)
+- Dugmad "View" i "Edit"
+
+## Ko koristi
+Superadmin i CTO (Hani) za organizaciju timova.
+
+## Interakcija
+Pretraga timova, pregled članova, uređivanje tima.
+
+---
+
+![👥 Team Overview View](images/team_overview_view.png)
+
+---
