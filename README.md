@@ -462,66 +462,6 @@ Popunjavanje forme i klik na "Add Person". Nakon dodavanja, osoba se može dalje
 
 ---
 
-
-# 🛡️ Evaluation
-## Opis
-Stranica za pregled zaposlenika spremnih za promociju i upravljanje izvještajima.
-
-## Ključne funkcionalnosti
-- Lista zaposlenika spremnih za promociju
-- Pisanje komentara i izvještaja
-- Pregled svih izvještaja
-
-## Ko koristi
-Superadmin i CTO.
-
-## Interakcija
-Klik na "See Reports" otvara detaljan pregled korisničkih izvještaja.
-
-![🛡️ Evaluation](images/evaluation.png)
-
----
-
-# 📋 Pregled sažetka izvještaja
-## Opis
-Stranica prikazuje skraćeni sažetak izvještaja zaposlenika.
-
-## Ključne funkcionalnosti
-- Vizualni pregled ciljeva
-- Sažetak izvještaja
-
-## Ko koristi
-Superadmin i CTO.
-
-## Interakcija
-Klik na "See Summary" otvara pregled izvještaja.
-
-![📋 Pregled sažetka izvještaja](images/see_summary.png)
-
----
-
-# ➕ Add People and Bucket Selection
-
-## Opis
-Stranica omogućava superadminu i CTO-u da dodaju nove zaposlenike i dodijele im bucket-e (tj. glavne oblasti znanja ili kompetencija).
-
-## Ključne funkcionalnosti
-- Polja za unos imena, emaila, mobitela i opisa korisnika
-- Dodavanje zaposlenika klikom na dugme "Add People"
-- Mogućnost dodavanja bucket-a za odabranog korisnika
-
-## Ko koristi
-Superadmin i CTO (Hani) za dodavanje novih članova tima i inicijalnu kategorizaciju po vještinama.
-
-## Interakcija
-Unos informacija o korisniku i klik na "Add Person" dugme. Bucket-i se mogu dodavati klikom na dugme "Bucket +".
-
----
-
-![➕ Add People and Bucket Selection](images/add_people_and_bucket_selection_edit.jpg)
-
----
-
 # ✏️ Edit People
 
 ## Opis
@@ -561,6 +501,44 @@ Klik na bucket prikazuje nivoe koje korisnik može dostići. Odabir nivoa automa
 ---
 
 ![🧹 Bucket Level Selection](images/add_people_and_bucket_selection_and_level_selection.jpg)
+
+
+---
+
+# 🛡️ Evaluation
+## Opis
+Stranica za pregled zaposlenika spremnih za promociju i upravljanje izvještajima.
+
+## Ključne funkcionalnosti
+- Lista zaposlenika spremnih za promociju
+- Pisanje komentara i izvještaja
+- Pregled svih izvještaja
+
+## Ko koristi
+Superadmin i CTO.
+
+## Interakcija
+Klik na "See Reports" otvara detaljan pregled korisničkih izvještaja.
+
+![🛡️ Evaluation](images/evaluation.png)
+
+---
+
+# 📋 Pregled sažetka izvještaja
+## Opis
+Stranica prikazuje skraćeni sažetak izvještaja zaposlenika.
+
+## Ključne funkcionalnosti
+- Vizualni pregled ciljeva
+- Sažetak izvještaja
+
+## Ko koristi
+Superadmin i CTO.
+
+## Interakcija
+Klik na "See Summary" otvara pregled izvještaja.
+
+![📋 Pregled sažetka izvještaja](images/see_summary.png)
 
 ---
 
