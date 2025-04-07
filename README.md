@@ -672,4 +672,186 @@ Prikaz prava i mogućnosti različitih korisničkih uloga u sistemu.
 - **CTO (Hani)** je SuperAdmin
 - **Team Lead** ima pristup samo svom timu i alatima za vođenje tima (dashboard, upravljanje članovima, evaluacije), bez mogućnosti dodavanja novih bucket-a ili upravljanja cijelom organizacijom.
 
+---
+---
+---
+# User
+
+# User View – User Dashboard
+
+## Opis
+
+Dashboard korisnika pruža pregled trenutnog napretka kroz različite bucket-e, zadataka, peer review aktivnosti i predviđanja vremena do promocije.
+
+## Ključne funkcionalnosti
+
+- **Task Progress**: Prikaz aktivnih bucket-a sa napretkom po zadacima (task checklist i progress bar).
+- **Peer Review**: Sekcija za peer review, gdje korisnik može ocijeniti kolege. Statusi uključuju "Take" za preuzimanje review-a i "Done" za završene review-e.
+- **Average Grade**: Prikaz trenutne prosječne ocjene koju korisnik ima.
+- **Expected Time Until Promotion**: Prikaz očekivanog vremena (npr. 3 mjeseca) do sljedeće promocije.
+
+## Ko koristi
+
+Zaposlenici za praćenje vlastitog napretka, zadataka, ocjenjivanje kolega i pripremu za promociju.
+
+## Interakcija
+
+- Klik na **Take** u Peer Review sekciji omogućava započinjanje ocjenjivanja kolege.
+- Klik na zadatke omogućava označavanje zadatka kao završenog.
+- Vizualno praćenje napretka prema ciljevima i promociji kroz progress bar i metrike.
+
+---
+
+![🖼️ User Dashboard](images/user_dashboard.svg)
+
+---
+
+# User View – Bucket Search and Selection
+
+## Opis
+
+Stranica omogućava korisniku (zaposleniku) da pretražuje dostupne karijerne puteve ("bucket-e"), pregleda svoj trenutni napredak i odabere nove bucket-e koje želi pratiti.
+
+## Ključne funkcionalnosti
+
+- **Bucket Search**: Polje za pretragu bucket-a po nazivu.
+- **Prikaz trenutnih bucket-a**: Kartice sa imenom bucket-a, trenutnim nivoom (Current Level) i ciljnim nivoima (Goals).
+- **Edit Bucket**: Dugme koje omogućava korisniku da uređuje svoj napredak u bucket-u.
+- **Preporučeni bucket-i**: Bucket-i koje korisnik još nije odabrao prikazani su u sivoj boji sa opcijom "Take Bucket" za preuzimanje.
+- **Notifikacije**: Ikona za notifikacije u gornjem desnom uglu za obavještenja korisnika.
+
+## Ko koristi
+
+Zaposlenici koji žele pratiti svoj karijerni napredak i odabrati nove puteve razvoja.
+
+## Interakcija
+
+- Unos termina u polje **Bucket Search** filtrira dostupne bucket-e.
+- Klik na **Edit Bucket** otvara detalje i omogućava korisniku uređivanje trenutnog napretka.
+- Klik na **Take Bucket** omogućava korisniku da preuzme novi bucket i započne novi razvojni put.
+
+---
+
+![🖼️ Bucket Search and Selection](images/bucket_search_selection.svg)
+
+---
+
+# User View – Bucket Level Detail
+
+## Opis
+
+Stranica prikazuje detaljan pregled trenutnog nivoa korisnika unutar odabranog bucket-a, zajedno sa očekivanjima, potrebnim vještinama, alatima i znanjima.
+
+## Ključne funkcionalnosti
+
+- **Level Progression**: Vizualni prikaz svih nivoa u bucket-u sa označenim trenutnim nivoom (npr. SE3) i mogućnošću pregleda prethodnog i sljedećeg nivoa.
+- **Current Level**: Prikaz imena trenutnog nivoa (npr. Software Engineer 3).
+- **Your Level Expectations**: Lista očekivanja koja korisnik mora ispuniti na trenutnom nivou.
+- **Skills**: Lista vještina potrebnih za nivo.
+- **Tools**: Lista tehnologija i alata povezanih sa nivoom, prikazana kroz tagove.
+- **Knowledge**: Polje za buduće dodatke znanja vezane za nivo (trenutno prazno).
+
+## Ko koristi
+
+Zaposlenici za praćenje trenutnih zahtjeva, planiranje razvoja i pripremu za prelazak na sljedeći nivo.
+
+## Interakcija
+
+- Klik na **Previous**/ **Next Level** dugmad omogućava navigaciju između nivoa unutar bucket-a.
+- Pregled očekivanja, vještina i alata koje je potrebno razviti da bi se napredovalo.
+
+---
+
+![🖼️ Bucket Level Detail](images/bucket_level_detail.svg)
+
+---
+
+# User View – Next Bucket Level Preview
+
+## Opis
+
+Stranica prikazuje pregled sljedećeg nivoa koji korisnik može dostići unutar svog bucket-a. Sadrži očekivanja, potrebne vještine, alate i znanja za napredovanje.
+
+## Ključne funkcionalnosti
+
+- **Level Progression**: Vizualni prikaz svih nivoa u bucket-u sa označenim trenutnim i sljedećim nivoom (npr. SE4).
+- **Next Level**: Prikaz imena sljedećeg nivoa (npr. Software Engineer 4).
+- **Next Level Expectations**: Lista novih očekivanja koja korisnik mora ispuniti da bi napredovao na viši nivo.
+- **Skills**: Lista vještina potrebnih za dostizanje sljedećeg nivoa.
+- **Tools**: Lista alata i tehnologija vezanih za novi nivo.
+- **Knowledge**: Polje za buduće dodatke znanja vezane za nivo (trenutno prazno).
+
+## Ko koristi
+
+Zaposlenici koji žele znati šta ih čeka u narednom nivou karijernog puta i kako se pripremiti za napredovanje.
+
+## Interakcija
+
+- Klik na **Next Level** dugme omogućava prelazak na pregled narednog nivoa.
+- Pregled očekivanja, vještina i alata potrebnih za promociju.
+
+---
+
+![🖼️ Next Bucket Level Preview](images/next_bucket_level_preview.svg)
+
+---
+
+# User View – Next Level in Progress
+
+## Opis
+
+Stranica prikazuje status napretka prema sljedećem nivou u bucket-u, uz prikaz postojećih očekivanja i potrebnih vještina i alata.
+
+## Ključne funkcionalnosti
+
+- **Level Progression**: Vizualni prikaz svih nivoa sa označenim trenutnim i sljedećim nivoom (npr. SE5).
+- **Current and Next Level**: Prikaz imena trenutnog i narednog nivoa (npr. Software Engineer 5).
+- **Level Expectations**: Prikaz očekivanja koja su ostala iz prethodnog nivoa (npr. Software Engineer 4 Expectations).
+- **Skills**: Lista vještina koje korisnik treba razviti za napredak.
+- **Tools**: Lista alata i tehnologija koje korisnik treba znati koristiti.
+- **Knowledge**: Polje za buduće dodatke znanja (trenutno prazno).
+
+## Ko koristi
+
+Zaposlenici koji su u fazi napredovanja ka višem nivou i žele pratiti preostale obaveze.
+
+## Interakcija
+
+- Klik na **Next Level** dugme za prikaz sljedećeg nivoa.
+- Praćenje trenutnih očekivanja i vještina koje je potrebno razviti za promociju.
+
+---
+
+![🖼️ Next Level in Progress](images/next_level_in_progress.svg)
+
+---
+
+# User View – Final Bucket Level Overview
+
+## Opis
+
+Stranica prikazuje pregled posljednjeg nivoa unutar bucket-a koji korisnik može dostići, zajedno sa očekivanjima, potrebnim vještinama i alatima.
+
+## Ključne funkcionalnosti
+
+- **Level Progression**: Vizualni prikaz svih nivoa, sa označenim finalnim nivoom (npr. SE6).
+- **Current Level**: Prikaz trenutnog nivoa korisnika (npr. Software Engineer 6).
+- **Level Expectations**: Pregled očekivanja iz prethodnog nivoa (npr. Software Engineer 4 Expectations).
+- **Skills**: Lista vještina potrebnih za održavanje i napredovanje u finalnom nivou.
+- **Tools**: Lista tehnologija i alata koje je korisnik usvojio.
+- **Knowledge**: Polje za dodatno znanje (trenutno prazno).
+
+## Ko koristi
+
+Zaposlenici koji su dostigli finalni nivo karijernog puta i žele pratiti stečene vještine i alate.
+
+## Interakcija
+
+- Vizualni pregled napredovanja kroz sve nivoe.
+- Pregled postojećih vještina i alata potrebnih za održavanje stručnosti na vrhunskom nivou.
+
+---
+
+![🖼️ Final Bucket Level Overview](images/final_bucket_level_overview.svg)
+
 
