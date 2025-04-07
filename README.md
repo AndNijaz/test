@@ -5,6 +5,7 @@
 ---
 
 ## 📚 Table of Contents
+- [Admin Dashboard](#admin-dashboard)
 - [Skill Search](#skill-search)
 - [Skill Search – Results View](#skill-search--results-view)
 - [Skill Search – No Direct Results View](#skill-search--no-direct-results-view)
@@ -15,11 +16,11 @@
 - [Add Skill / Expectation / Tool / Knowledge Modal](#add-skill--expectation--tool--knowledge-modal)
 - [Add New Level to Bucket](#add-new-level-to-bucket)
 - [Team Overview View](#team-overview-view)
-- [Admin Dashboard](#admin-dashboard)
 - [Team Overview](#team-overview)
 - [Edit Team](#edit-team)
 - [Delete Team](#delete-team)
 - [Manage Team Members](#manage-team-members)
+- [Add New Member](#add-new-member)
 - [Evaluation](#evaluation)
 - [People Overview](#people-overview)
 - [Add New Member](#add-new-member)
