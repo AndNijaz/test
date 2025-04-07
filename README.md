@@ -596,6 +596,10 @@ Klik na "See Summary" otvara pregled izvještaja.
 ![📋 Pregled sažetka izvještaja](images/see_summary.png)
 
 ---
+---
+---
+
+# Team Lead View
 
 
 
