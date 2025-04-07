@@ -4,7 +4,77 @@
 
 ---
 
-## 📚 Table of Contents
+# 📚 Dokumentacija Sistema – Hani Projekat
+
+## 1. Uvod
+
+**Hani Platforma** je sistem za upravljanje karijernim napretkom i timovima, koji pomaže kompanijama da prate, razvijaju i promovišu svoje zaposlenike. Omogućava menadžmentu da definiše karijerne puteve (bucket-e), procjenjuje napredak zaposlenika, upravlja timovima i vodi strukturirane procese promocije.  
+Kroz naprednu pretragu vještina, real-time dashboarde i strukturisane evaluacije, platforma pomaže kako administratorima tako i korisnicima da aktivno oblikuju svoj profesionalni razvoj.
+
+Platforma je prvenstveno namijenjena za internu upotrebu od strane Superadmina, CTO-a, Team Leadova i zaposlenika, s ciljem da omogući transparentnost, strukturu i prilike za napredak unutar organizacije.
+
+---
+
+## 2. Funkcionalnosti
+
+**Hani Platforma** nudi sljedeće funkcionalnosti:
+
+- **Admin Dashboard** – Pregled promocija, performansi timova i razvoja vještina u firmi.
+- **Pretraga vještina (Skill Search)** – Pretraga zaposlenika po vještinama i pronalazak idealnih kandidata.
+- **Upravljanje bucket-ima** – Kreiranje, uređivanje i upravljanje karijernim putevima (bucket-i i nivoi).
+- **Upravljanje timovima** – Kreiranje, uređivanje i praćenje timova, dodjeljivanje članova i analiza performansi.
+- **Sistem evaluacije** – Pisanje izvještaja, praćenje napretka i vođenje procesa promocije zaposlenika.
+- **Dashboard za korisnike** – Pregled zadataka, napretka i promocija za svakog zaposlenika.
+- **Praćenje promocije** – Vizualizacija očekivanog vremena do naredne promocije.
+- **Peer Review** – Sistem u kojem zaposleni ocjenjuju svoje kolege.
+- **Upravljačka prava (Permissions)** – Različita prava pristupa za Superadmina, CTO-a, Team Leada i zaposlenike.
+- **Generisanje izvještaja** – Pregled i preuzimanje izvještaja o napretku zaposlenika.
+
+---
+
+## 3. Stranice
+
+Platforma uključuje sljedeće korisničke stranice:
+
+- **Admin Dashboard** – Pregled statusa promocija, performansi timova i analiza vještina.
+- **Pretraga vještina (Skill Search)** – Pretraga zaposlenika po vještinama uz direktne i AI-predložene kandidate.
+- **Prikaz rezultata pretrage** – Prikaz kandidata koji direktno odgovaraju pretrazi.
+- **Prikaz bez direktnih rezultata** – Prikaz potencijalnih kandidata kada nema direktnog poklapanja.
+- **Pregled bucket-a** – Pregled svih karijernih puteva u kompaniji.
+- **Detalji bucket-a** – Detaljan prikaz svih nivoa unutar jednog bucket-a.
+- **Dodavanje bucket-a** – Kreiranje novog karijernog puta (bucket-a).
+- **Uređivanje nivoa bucket-a** – Uređivanje postojećih nivoa, vještina i očekivanja.
+- **Dodavanje vještine / očekivanja / alata / znanja** – Modal za unos novih elemenata.
+- **Dodavanje novog nivoa u bucket** – Kreiranje novog nivoa u okviru bucket-a.
+- **Pregled timova** – Pregled svih timova u firmi.
+- **Detalji tima** – Pregled članova i projekata unutar odabranog tima.
+- **Uređivanje tima** – Uređivanje podataka o timu.
+- **Brisanje tima** – Potvrda i brisanje postojećeg tima.
+- **Upravljanje članovima tima** – Dodavanje, uklanjanje i uređivanje članova tima.
+- **Dodavanje novog člana** – Pretraga i dodavanje novih članova timu.
+- **Pregled zaposlenika** – Upravljanje profilima svih zaposlenika.
+- **Dodavanje zaposlenika i povezivanje sa bucket-ima** – Dodavanje novih zaposlenika i povezivanje sa karijernim putevima.
+- **Dodavanje zaposlenika** – Brzi unos osnovnih podataka o zaposleniku.
+- **Uređivanje zaposlenika** – Uređivanje postojećih podataka i bucket-a.
+- **Odabir nivoa bucket-a** – Odabir nivoa vještina za zaposlenike.
+- **Evaluacija** – Upravljanje procesima evaluacije i promocije zaposlenika.
+- **Pregled korisnika (Modal)** – Kratki pregled napretka zaposlenika kroz izvještaje.
+- **Pregled korisničkih izvještaja** – Detaljan pregled svih izvještaja zaposlenika.
+- **Pregled sažetka izvještaja** – Skraćeni pregled izvještaja zaposlenika.
+- **Dashboard Team Leada** – Dashboard za vođenje i evaluaciju tima.
+- **Pregled korisničkih prava** – Pregled mogućnosti različitih korisničkih uloga.
+- **Dashboard korisnika** – Pregled zadataka, napretka i peer review aktivnosti zaposlenika.
+- **Pretraga i odabir bucket-a** – Pretraga dostupnih karijernih puteva.
+- **Detalji trenutnog nivoa bucket-a** – Detalji trenutnog nivoa razvoja zaposlenika.
+- **Pregled narednog nivoa** – Pregled zahtjeva za sljedeći nivo razvoja.
+- **Napredovanje ka sljedećem nivou** – Praćenje preostalih koraka za napredovanje.
+- **Pregled finalnog nivoa** – Pregled dostignuća na najvišem nivou karijere.
+
+---
+
+# 4. Functionality 
+
+## 📚 Functionality Table of Contents
 - [Admin Dashboard](#admin-dashboard)
 - [Skill Search](#skill-search)
 - [Skill Search – Results View](#skill-search--results-view)
@@ -860,4 +930,45 @@ Zaposlenici koji su dostigli finalni nivo karijernog puta i žele pratiti steče
 
 ![🖼️ Final Bucket Level Overview](images/final_bucket_level_overview.svg)
 
+## 5. API Dokumentacija (Skica)
+
+Glavne API rute uključuju:
+
+| #   | CRUD    | URL Putanja                         | Request           | Response                  | Opis funkcionalnosti                |
+|-----|---------|--------------------------------------|-------------------|----------------------------|--------------------------------------|
+| 1   | Create  | /users/register                      | UserDto            | UserDto                    | Registracija novog korisnika         |
+| 2   | Create  | /users/login                         | LoginDto           | TokenDto                   | Prijava korisnika                    |
+| 3   | Read    | /skills/search                       | SearchDto          | List<UserDto>              | Pretraga korisnika po vještinama     |
+| 4   | Create  | /buckets                             | BucketDto          | BucketDto                  | Kreiranje novog bucket-a             |
+| 5   | Update  | /buckets/{id}                        | BucketDto          | BucketDto                  | Ažuriranje podataka o bucket-u       |
+| 6   | Create  | /buckets/{id}/levels                  | LevelDto           | LevelDto                   | Dodavanje novog nivoa u bucket       |
+| 7   | Update  | /buckets/{id}/levels/{levelId}        | LevelDto           | LevelDto                   | Uređivanje postojećeg nivoa          |
+| 8   | Read    | /teams                               | -                  | List<TeamDto>              | Pregled svih timova                  |
+| 9   | Create  | /teams                               | TeamDto            | TeamDto                    | Kreiranje novog tima                 |
+| 10  | Update  | /teams/{id}                          | TeamDto            | TeamDto                    | Uređivanje tima                      |
+| 11  | Delete  | /teams/{id}                          | -                  | -                          | Brisanje tima                        |
+| 12  | Create  | /teams/{teamId}/members               | MemberDto          | MemberDto                  | Dodavanje člana timu                 |
+| 13  | Read    | /users/{id}/buckets                   | -                  | List<BucketProgressDto>    | Pregled bucket-a korisnika           |
+| 14  | Create  | /evaluations                         | EvaluationDto      | EvaluationDto              | Slanje evaluacije                    |
+| 15  | Read    | /evaluations/{userId}                 | -                  | List<EvaluationDto>        | Pregled evaluacija korisnika         |
+
+*(Detaljna dokumentacija će se proširivati tokom razvoja.)*
+
+---
+
+## 6. Tehnički Zahtjevi
+
+**Tehnologije koje ćemo koristiti:**
+
+- **Frontend**: React (TypeScript)
+- **Backend**: NestJS (TypeScript)
+- **Baza podataka**: PostgreSQL
+- **Autentifikacija**: JWT (sa opcijom korištenja refresh tokena)
+- **State Management**: React Query ili Redux Toolkit
+- **Grafovi i vizualizacija**: Recharts (za prikaz promocija i performansi timova)
+- **Obavijesti**: react-hot-toast ili sličan alat za prikaz statusnih poruka
+- **UI Framework**: TailwindCSS ili Material UI
+- **Hosting**: Vercel (frontend) + AWS ili VPS server (backend)
+- **Testiranje**: Jest (backend) i React Testing Library (frontend)
+- **Verzijsko upravljanje**: GitHub
 
