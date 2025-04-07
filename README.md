@@ -25,6 +25,12 @@
 - [👥 People Overview](#-people-overview)
 - [➕ Add New Member](#-add-new-member)
 - [📋 Sažetak Izvještaja](#-pregled-sažetka-izvještaja)
+- [➕ Add People and Bucket Selection](#add-people-and-bucket-selection)
+- [➕ Add People](#add-people)
+- [✏️ Edit People](#edit-people)
+- [🧹 Bucket Level Selection](#bucket-level-selection)
+- [👤 Pregled korisnika (Modal)](#pregled-korisnika-modal)
+- [📄 Pregled korisničkih izvještaja](#pregled-korisnickih-izvjestaja)
 
 
 ---
@@ -460,3 +466,135 @@ Superadmin i CTO.
 Klik na "See Summary" otvara pregled izvještaja.
 
 ![📋 Pregled sažetka izvještaja](images/see_summary.png)
+
+---
+
+# ➕ Add People and Bucket Selection
+
+## Opis
+Stranica omogućava superadminu i CTO-u da dodaju nove zaposlenike i dodijele im bucket-e (tj. glavne oblasti znanja ili kompetencija).
+
+## Ključne funkcionalnosti
+- Polja za unos imena, emaila, mobitela i opisa korisnika
+- Dodavanje zaposlenika klikom na dugme "Add People"
+- Mogućnost dodavanja bucket-a za odabranog korisnika
+
+## Ko koristi
+Superadmin i CTO (Hani) za dodavanje novih članova tima i inicijalnu kategorizaciju po vještinama.
+
+## Interakcija
+Unos informacija o korisniku i klik na "Add Person" dugme. Bucket-i se mogu dodavati klikom na dugme "Bucket +".
+
+---
+
+![➕ Add People and Bucket Selection](images/add_people_and_bucket_selection_edit.jpg)
+
+---
+
+# ➕ Add People
+
+## Opis
+Minimalistička stranica za brzi unos osnovnih podataka o novom zaposleniku bez direktnog vezivanja na postojeće bucket-e.
+
+## Ključne funkcionalnosti
+- Polja za unos imena, emaila i mobitela
+- Polje za unos opisa
+- Dugme "Add Person" za spremanje unosa
+
+## Ko koristi
+Superadmin i CTO (Hani) za brzo dodavanje zaposlenih.
+
+## Interakcija
+Popunjavanje forme i klik na "Add Person". Nakon dodavanja, osoba se može dalje urediti ili dodavati bucket-i.
+
+---
+
+![➕ Add People](images/add_people.jpg)
+
+---
+
+# ✏️ Edit People
+
+## Opis
+Stranica za uređivanje već postojećih zaposlenika, sa opcijama izmjene podataka i dodavanja novih bucket-a.
+
+## Ključne funkcionalnosti
+- Uređivanje imena, emaila, broja mobitela i opisa
+- Upravljanje listom bucket-a
+
+## Ko koristi
+Superadmin i CTO (Hani) za ažuriranje profila zaposlenih.
+
+## Interakcija
+Izmjena podataka direktno u formi i spremanje izmjena klikom na "Edit Person" dugme.
+
+---
+
+![✏️ Edit People](images/add_people_and_bucket_selection_edit.jpg)
+
+---
+
+# 🧹 Bucket Level Selection
+
+## Opis
+Detaljna stranica gdje superadmin i CTO mogu odabrati nivo vještine za svakog bucket-a koji osoba ima.
+
+## Ključne funkcionalnosti
+- Prikaz bucket-a sa opcijama za izbor nivoa (npr. Lvl 1, Lvl 2)
+- Vizualni prikaz izabranih nivoa
+
+## Ko koristi
+Superadmin i CTO (Hani) za fino podešavanje nivoa vještina zaposlenika.
+
+## Interakcija
+Klik na bucket prikazuje nivoe koje korisnik može dostići. Odabir nivoa automatski se povezuje sa korisnikom.
+
+---
+
+![🧹 Bucket Level Selection](images/add_people_and_bucket_selection_and_level_selection.jpg)
+
+---
+
+# 👤 Pregled korisnika (Modal)
+
+## Opis
+Modal koji se otvara klikom na "See Reports" dugme. Prikazuje osnovne informacije o zaposleniku, trenutni nivo vještina i ocjene.
+
+## Ključne funkcionalnosti
+- Prikaz imena, vještina i nivoa
+- Pregled izvještaja sa ocjenama (pozitivne i negativne)
+- Dugme za otvaranje detaljnog pregleda svih izvještaja
+
+## Ko koristi
+Superadmin i CTO (Hani) za brzi pregled performansi zaposlenika.
+
+## Interakcija
+Klik na "See Reports" otvara modal. Unutar modala može se kliknuti na dugme za prikaz svih izvještaja.
+
+---
+
+![👤 Pregled korisnika (Modal)](images/pregled_korisnika_modal.jpg)
+
+---
+
+# 📄 Pregled korisničkih izvještaja
+
+## Opis
+Stranica prikazuje detaljne izvještaje korisnika, sa istorijom i projektima povezanim sa napredovanjem u vještinama.
+
+## Ključne funkcionalnosti
+- Dropdown za odabir trenutno aktivnog bucket-a
+- Lista izvještaja koji su potrebni za promociju
+- Istorija prethodnih izvještaja
+- Dugmad za pregled sažetka ili preuzimanje izvještaja kao PDF
+
+## Ko koristi
+Superadmin i CTO (Hani) za detaljnu procjenu napretka zaposlenika.
+
+## Interakcija
+Klik na "See Summary" za kratki pregled izvještaja ili na "Download PDF" za preuzimanje punog izvještaja.
+
+---
+
+![📄 Pregled korisničkih izvještaja](images/user_reports.jpg)
+
