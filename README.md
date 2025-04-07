@@ -30,7 +30,15 @@
 - [Pregled korisnika (Modal)](#pregled-korisnika-modal)
 - [Pregled korisničkih izvještaja](#pregled-korisničkih-izvještaja)
 - [Pregled sažetka izvještaja](#pregled-sažetka-izvještaja)
-
+- [Team Lead](#team-lead)
+- [Team Lead Dashboard](#team-lead-dashboard)
+- [User Permissions Overview](#user-permissions-overview)
+- [User View – User Dashboard](#user-view--user-dashboard)
+- [User View – Bucket Search and Selection](#user-view--bucket-search-and-selection)
+- [User View – Bucket Level Detail](#user-view--bucket-level-detail)
+- [User View – Next Bucket Level Preview](#user-view--next-bucket-level-preview)
+- [User View – Next Level in Progress](#user-view--next-level-in-progress)
+- [User View – Final Bucket Level Overview](#user-view--final-bucket-level-overview)
 
 --- 
 
@@ -747,7 +755,7 @@ Stranica prikazuje detaljan pregled trenutnog nivoa korisnika unutar odabranog b
 - **Your Level Expectations**: Lista očekivanja koja korisnik mora ispuniti na trenutnom nivou.
 - **Skills**: Lista vještina potrebnih za nivo.
 - **Tools**: Lista tehnologija i alata povezanih sa nivoom, prikazana kroz tagove.
-- **Knowledge**: Polje za buduće dodatke znanja vezane za nivo (trenutno prazno).
+- **Knowledge**: Polje za buduće dodatke znanja vezane za nivo
 
 ## Ko koristi
 
