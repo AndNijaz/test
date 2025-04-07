@@ -5,38 +5,36 @@
 ---
 
 ## 📚 Table of Contents
-- [🧠 Skill Search](#-skill-search)
-- [🧠 Skill Search – Results View](#-skill-search--results-view)
-- [🧠 Skill Search – No Direct Results View](#-skill-search--no-direct-results-view)
-- [🧱 Buckets View](#-buckets-view)
-- [🧱 Bucket Detail View](#-bucket-detail-view)
-- [➕ Add Bucket View](#-add-bucket-view)
-- [✏️ Edit Bucket Level View](#-edit-bucket-level-view)
-- [➕ Add Skill / Expectation / Tool / Knowledge Modal](#-add-skill--expectation--tool--knowledge-modal)
-- [➕ Add New Level to Bucket](#-add-new-level-to-bucket)
-- [👥 Team Overview View](#-team-overview-view)
-- [📊 Admin Dashboard](#-admin-dashboard)
-- [👥 Team Overview](#-team-overview)
-- [✏️ Edit Team](#-edit-team)
-- [❌ Delete Team](#-delete-team)
-- [👥 Manage Team Members](#-manage-team-members)
-- [🧠 Skill Search](#-skill-search)
-- [🛡️ Evaluation](#-evaluation)
-- [👥 People Overview](#-people-overview)
-- [➕ Add New Member](#-add-new-member)
-- [📋 Sažetak Izvještaja](#-pregled-sažetka-izvještaja)
-- [➕ Add People and Bucket Selection](#add-people-and-bucket-selection)
-- [➕ Add People](#add-people)
-- [✏️ Edit People](#edit-people)
-- [🧹 Bucket Level Selection](#bucket-level-selection)
-- [👤 Pregled korisnika (Modal)](#pregled-korisnika-modal)
-- [📄 Pregled korisničkih izvještaja](#pregled-korisnickih-izvjestaja)
-- [➕ Add People and Bucket Selectio](#pregled-korisnickih-izvjestaja)
+- [Skill Search](#skill-search)
+- [Skill Search – Results View](#skill-search--results-view)
+- [Skill Search – No Direct Results View](#skill-search--no-direct-results-view)
+- [Buckets View](#buckets-view)
+- [Bucket Detail View](#bucket-detail-view)
+- [Add Bucket View](#add-bucket-view)
+- [Edit Bucket Level View](#edit-bucket-level-view)
+- [Add Skill / Expectation / Tool / Knowledge Modal](#add-skill--expectation--tool--knowledge-modal)
+- [Add New Level to Bucket](#add-new-level-to-bucket)
+- [Team Overview View](#team-overview-view)
+- [Admin Dashboard](#admin-dashboard)
+- [Team Overview](#team-overview)
+- [Edit Team](#edit-team)
+- [Delete Team](#delete-team)
+- [Manage Team Members](#manage-team-members)
+- [Evaluation](#evaluation)
+- [People Overview](#people-overview)
+- [Add New Member](#add-new-member)
+- [Pregled sažetka izvještaja](#pregled-sažetka-izvještaja)
+- [Add People and Bucket Selection](#add-people-and-bucket-selection)
+- [Add People](#add-people)
+- [Edit People](#edit-people)
+- [Bucket Level Selection](#bucket-level-selection)
+- [Pregled korisnika (Modal)](#pregled-korisnika-modal)
+- [Pregled korisničkih izvještaja](#pregled-korisničkih-izvještaja)
 
 
 --- 
 
-# 📊 Admin Dashboard
+# Admin Dashboard
 
 ## Opis
 Stranica prikazuje pregled statusa promocija, performansi timova i analitike vještina unutar firme.
@@ -59,7 +57,7 @@ Pregled sažetih podataka, klik na promocije za više detalja, navigacija ka det
 
 ---
 
-# 🧠 Skill Search
+# Skill Search
 
 ## Opis
 Stranica omogućava superadminu i Hani-ju da pretražuju sve zaposlenike po vještinama. Rezultati pretrage prikazani su kao kartice sa osnovnim informacijama o zaposleniku.
@@ -414,7 +412,7 @@ Klikom na "Edit" otvara se detaljan prikaz i uređivanje zaposlenika.
 
 ---
 
-# ➕ Add People and Bucket Selection
+# Add People and Bucket Selection
 
 ## Opis
 
