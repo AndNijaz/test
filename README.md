@@ -972,3 +972,18 @@ Glavne API rute uključuju:
 - **Testiranje**: Jest (backend) i React Testing Library (frontend)
 - **Verzijsko upravljanje**: GitHub
 
+# 7 📖 Glosar Pojmova
+
+| Pojam | Definicija |
+|:---|:---|
+| **Bucket** | Definisani karijerni put koji opisuje uloge, nivoe i očekivanja za napredovanje zaposlenika. |
+| **Level** | Nivo unutar bucket-a koji određuje set vještina, alata i znanja koje zaposlenik treba da razvije. |
+| **Peer Review** | Proces u kojem zaposlenici ocjenjuju svoje kolege na osnovu rada, vještina i timske saradnje. |
+| **Promotion** | Napredovanje zaposlenika na viši nivo u okviru svog bucket-a, zasnovano na ispunjenju kriterija. |
+| **Evaluation** | Struktuirani proces procjene učinka zaposlenika kroz izvještaje, komentare i ocjene. |
+| **Team Lead** | Osoba odgovorna za vođenje tima, evaluaciju članova i razvoj timskih vještina. |
+| **Superadmin** | Korisnik sa potpunim pravima pristupa i upravljanja svim segmentima platforme. |
+| **CTO (Hani)** | Tehnički direktor i superadmin koji ima sve administrativne i evaluacione ovlasti. |
+| **Skill Search** | Funkcionalnost za pretragu zaposlenika na osnovu njihovih vještina i sposobnosti. |
+| **Dashboard** | Centralno mjesto za pregled ključnih informacija o napretku, evaluacijama i performansama timova. |
+
