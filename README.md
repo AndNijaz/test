@@ -599,7 +599,77 @@ Klik na "See Summary" otvara pregled izvještaja.
 ---
 ---
 
-# Team Lead View
+# Team Lead 
 
+# Team Lead Dashboard
+
+## Opis
+Dashboard za Team Lead-ove pruža brz pregled performansi njihovog tima i omogućava ostavljanje povratnih informacija za članove tima.
+
+Team Lead ima pristup i funkcijama koje koristi Superadmin, kao što su:
+
+- **Team Overview View**
+- **Team Overview**
+- **Edit Team**
+- **Delete Team**
+- **Manage Team Members**
+- **Add New Member**
+
+Time se omogućava vođenje i održavanje timova uz veću samostalnost.
+
+## Ključne funkcionalnosti
+- **Pending Reviews**: Prikaz broja izvještaja koji čekaju da Team Lead ocijeni.
+- **Average Score**: Prikaz prosječne ocjene tima.
+- **Promotions in Team by Quarter**: Grafikon koji prikazuje broj promocija unutar tima po kvartalima.
+- **Submit Review**: Forma za ostavljanje povratne informacije za zaposlenike, uključujući ukupni feedback, snage i oblasti za poboljšanje.
+- **Team Structure**: Prikaz strukture tima prema pozicijama i broju članova.
+- **Skills Being Developed**: Lista vještina koje se razvijaju unutar tima.
+
+## Ko koristi
+Team Lead za:
+
+- Upravljanje timskim performansama
+- Ocjenjivanje i razvoj članova tima
+- Praćenje razvoja vještina i promocija
+- Organizaciju tima (dodavanje, uređivanje, brisanje članova)
+
+## Interakcija
+Team Lead može:
+
+- Brzo vidjeti ključne metrike tima
+- Ostaviti povratne informacije zaposlenicima kroz formu "Submit Review"
+- Analizirati strukturu tima i razvijane vještine
+- Koristiti opcije koje su inače dostupne Superadminu za pregled, uređivanje i upravljanje timovima i članovima
+
+![👨‍💻 Team Lead Dashboard](images/team_lead_dashboard.jpg)
+
+# User Permissions Overview
+
+## Opis
+Prikaz prava i mogućnosti različitih korisničkih uloga u sistemu.
+
+| Funkcionalnost | Superadmin | CTO (Hani) | Team Lead |
+|:---|:---:|:---:|:---:|
+| **Pregled Dashboard-a** | ✅ | ✅ | ✅ (svoj tim) |
+| **Pretraga zaposlenika po vještinama** | ✅ | ✅ | ❌ |
+| **Upravljanje bucket-ima** | ✅ | ✅ | ❌ |
+| **Kreiranje i uređivanje bucket-a** | ✅ | ✅ | ❌ |
+| **Upravljanje timovima** | ✅ | ✅ | ✅ (svoj tim) |
+| **Dodavanje novih članova** | ✅ | ✅ | ✅ (samo svom timu) |
+| **Brisanje timova** | ✅ | ✅ | ✅ (samo svoj tim) |
+| **Upravljanje članovima tima** | ✅ | ✅ | ✅ (svoj tim) |
+| **Dodavanje novih zaposlenika** | ✅ | ✅ | ❌ |
+| **Upravljanje evaluacijama** | ✅ | ✅ | ✅ (svoj tim) |
+| **Pisanje izvještaja i komentara** | ✅ | ✅ | ✅ (svoj tim) |
+| **Promovisanje zaposlenika** | ✅ | ✅ | ❌ |
+| **Pregled izvještaja** | ✅ | ✅ | ✅ (svoj tim) |
+| **Pristup svim korisničkim podacima** | ✅ | ✅ | ❌ |
+
+---
+
+## Objašnjenje
+- **Superadmin** ima puni pristup svim funkcionalnostima sistema bez ograničenja.
+- **CTO (Hani)** je SuperAdmin
+- **Team Lead** ima pristup samo svom timu i alatima za vođenje tima (dashboard, upravljanje članovima, evaluacije), bez mogućnosti dodavanja novih bucket-a ili upravljanja cijelom organizacijom.
 
 
