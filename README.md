@@ -370,6 +370,10 @@ Team Lead i Superadmin za održavanje pravilne strukture tima.
 ## Interakcija
 Klik na dugme "Add Member" za dodavanje, dugme za brisanje člana pored imena, inline edit za uloge.
 
+--- 
+
+![👥 Manage Team Members](images/manage_team_members.jpg)
+
 ---
 
 # ➕ Add New Member
