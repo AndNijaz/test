@@ -20,6 +20,11 @@
 - [✏️ Edit Team](#-edit-team)
 - [❌ Delete Team](#-delete-team)
 - [👥 Manage Team Members](#-manage-team-members)
+- [🧠 Skill Search](#-skill-search)
+- [🛡️ Evaluation](#-evaluation)
+- [👥 People Overview](#-people-overview)
+- [➕ Add New Member](#-add-new-member)
+- [📋 Sažetak Izvještaja](#-pregled-sažetka-izvještaja)
 
 
 ---
@@ -361,3 +366,97 @@ Klik na dugme "Add Member" za dodavanje, dugme za brisanje člana pored imena, i
 ---
 
 ![👥 Manage Team Members](images/upravljanje_clanova_tima.jpg)
+
+---
+
+# 🧠 Skill Search
+## Opis
+Stranica omogućava superadminu i CTO-u brzo pretraživanje svih zaposlenika po vještinama.
+
+## Ključne funkcionalnosti
+- Pretraga zaposlenika po vještinama
+- Prikaz kartica zaposlenika sa opcijama za uređivanje i promociju
+- Navigacija kroz sekcije dashboarda
+
+## Ko koristi
+Superadmin i CTO.
+
+## Interakcija
+Unos ključne riječi filtrira zaposlenike, klik na "Edit" ili "Promote" otvara dodatne opcije.
+
+![🧠 Skill Search](images/skill_search.png)
+
+---
+
+# 🛡️ Evaluation
+## Opis
+Stranica za pregled zaposlenika spremnih za promociju i upravljanje izvještajima.
+
+## Ključne funkcionalnosti
+- Lista zaposlenika spremnih za promociju
+- Pisanje komentara i izvještaja
+- Pregled svih izvještaja
+
+## Ko koristi
+Superadmin i CTO.
+
+## Interakcija
+Klik na "See Reports" otvara detaljan pregled korisničkih izvještaja.
+
+![🛡️ Evaluation](images/evaluation.png)
+
+---
+
+# 👥 People Overview
+## Opis
+Stranica za administraciju zaposlenika, omogućava pretragu, uređivanje i dodavanje zaposlenih.
+
+## Ključne funkcionalnosti
+- Prikaz svih zaposlenika
+- Brza pretraga i uređivanje profila
+- Dodavanje novih zaposlenika
+
+## Ko koristi
+Superadmin.
+
+## Interakcija
+Klikom na "Edit" otvara se detaljan prikaz i uređivanje zaposlenika.
+
+![👥 People Overview](images/people_overview.png)
+
+---
+
+# ➕ Add New Member
+## Opis
+Ekran za dodavanje novih članova u tim, sa odabirom pozicije.
+
+## Ključne funkcionalnosti
+- Pretraga kandidata po ključnim riječima
+- Odabir pozicije prije dodavanja
+- Pregled članova prije potvrde
+
+## Ko koristi
+Superadmin i CTO.
+
+## Interakcija
+Dodavanje kandidata klikom na "Add to Team", potvrda klikom na "Done".
+
+![➕ Add New Member](images/add_member.png)
+
+---
+
+# 📋 Pregled sažetka izvještaja
+## Opis
+Stranica prikazuje skraćeni sažetak izvještaja zaposlenika.
+
+## Ključne funkcionalnosti
+- Vizualni pregled ciljeva
+- Sažetak izvještaja
+
+## Ko koristi
+Superadmin i CTO.
+
+## Interakcija
+Klik na "See Summary" otvara pregled izvještaja.
+
+![📋 Pregled sažetka izvještaja](images/see_summary.png)
