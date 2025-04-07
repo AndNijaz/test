@@ -34,6 +34,29 @@
 - [➕ Add People and Bucket Selectio](#pregled-korisnickih-izvjestaja)
 
 
+--- 
+
+# 📊 Admin Dashboard
+
+## Opis
+Stranica prikazuje pregled statusa promocija, performansi timova i analitike vještina unutar firme.
+
+## Ključne funkcionalnosti
+- Pregled pending promocija
+- Prikaz promocija po kvartalima
+- Tabela najboljih timova (Leaderboard)
+- Analiza vještina koje zahtijevaju najviše vremena za razvoj
+
+## Ko koristi
+Superadmin i CTO (Hani) za strateško praćenje razvoja i planiranje intervencija.
+
+## Interakcija
+Pregled sažetih podataka, klik na promocije za više detalja, navigacija ka detaljima timova i zaposlenih.
+
+---
+
+![📊 Admin Dashboard](images/superadmin_hani_dashboard.jpg)
+
 ---
 
 # 🧠 Skill Search
@@ -262,29 +285,6 @@ Pretraga timova, pregled članova, uređivanje tima.
 
 ---
 
-# 📊 Admin Dashboard
-
-## Opis
-Stranica prikazuje pregled statusa promocija, performansi timova i analitike vještina unutar firme.
-
-## Ključne funkcionalnosti
-- Pregled pending promocija
-- Prikaz promocija po kvartalima
-- Tabela najboljih timova (Leaderboard)
-- Analiza vještina koje zahtijevaju najviše vremena za razvoj
-
-## Ko koristi
-Superadmin i CTO (Hani) za strateško praćenje razvoja i planiranje intervencija.
-
-## Interakcija
-Pregled sažetih podataka, klik na promocije za više detalja, navigacija ka detaljima timova i zaposlenih.
-
----
-
-![📊 Admin Dashboard](images/superadmin_hani_dashboard.jpg)
-
----
-
 # 👥 Team Overview
 
 ## Opis
@@ -372,45 +372,22 @@ Klik na dugme "Add Member" za dodavanje, dugme za brisanje člana pored imena, i
 
 ---
 
-![👥 Manage Team Members](images/upravljanje_clanova_tima.jpg)
-
----
-
-# 🧠 Skill Search
+# ➕ Add New Member
 ## Opis
-Stranica omogućava superadminu i CTO-u brzo pretraživanje svih zaposlenika po vještinama.
+Ekran za dodavanje novih članova u tim, sa odabirom pozicije.
 
 ## Ključne funkcionalnosti
-- Pretraga zaposlenika po vještinama
-- Prikaz kartica zaposlenika sa opcijama za uređivanje i promociju
-- Navigacija kroz sekcije dashboarda
+- Pretraga kandidata po ključnim riječima
+- Odabir pozicije prije dodavanja
+- Pregled članova prije potvrde
 
 ## Ko koristi
 Superadmin i CTO.
 
 ## Interakcija
-Unos ključne riječi filtrira zaposlenike, klik na "Edit" ili "Promote" otvara dodatne opcije.
+Dodavanje kandidata klikom na "Add to Team", potvrda klikom na "Done".
 
-![🧠 Skill Search](images/skill_search.png)
-
----
-
-# 🛡️ Evaluation
-## Opis
-Stranica za pregled zaposlenika spremnih za promociju i upravljanje izvještajima.
-
-## Ključne funkcionalnosti
-- Lista zaposlenika spremnih za promociju
-- Pisanje komentara i izvještaja
-- Pregled svih izvještaja
-
-## Ko koristi
-Superadmin i CTO.
-
-## Interakcija
-Klik na "See Reports" otvara detaljan pregled korisničkih izvještaja.
-
-![🛡️ Evaluation](images/evaluation.png)
+![➕ Add New Member](images/add_member.png)
 
 ---
 
@@ -433,22 +410,75 @@ Klikom na "Edit" otvara se detaljan prikaz i uređivanje zaposlenika.
 
 ---
 
-# ➕ Add New Member
+# ➕ Add People and Bucket Selection
+
 ## Opis
-Ekran za dodavanje novih članova u tim, sa odabirom pozicije.
+
+Stranica omogućava superadminu i Hani-ju da pregledaju detalje o zaposleniku i dodaju ga u jedan ili više "bucket-a" na osnovu vještina i nivoa.
 
 ## Ključne funkcionalnosti
-- Pretraga kandidata po ključnim riječima
-- Odabir pozicije prije dodavanja
-- Pregled članova prije potvrde
+
+- Polje za pretragu zaposlenika ("Neki Search")
+- Dugme "Add People" za dodavanje novih zaposlenika
+- Prikaz profila zaposlenika: ime, email, broj telefona, opis
+- Pregled dodijeljenih vještina i nivoa (npr. "Software Eng | Lvl 1")
+- Dugme "Bucket +" za dodavanje novih bucket-a
+- Dugme "Edit Person" za uređivanje podataka zaposlenika
+- Sidebar za navigaciju kroz glavne sekcije (Skill Search, Buckets, Evaluation, People)
+
+## Ko koristi
+
+Superadmin i CTO (Hani) za brzo kreiranje novih profila i povezivanje sa vještinama.
+
+## Interakcija
+
+Popunjavanje forme, dodavanje bucket-a i nivoa klikom na dugme "Bucket +", te spremanje osobe klikom na "Edit Person".
+
+---
+
+![📄 Add People and Bucket Selection](images/add_people_and_bucket_selection.jpg)
+
+---
+
+# ➕ Add People
+
+## Opis
+Minimalistička stranica za brzi unos osnovnih podataka o novom zaposleniku bez direktnog vezivanja na postojeće bucket-e.
+
+## Ključne funkcionalnosti
+- Polja za unos imena, emaila i mobitela
+- Polje za unos opisa
+- Dugme "Add Person" za spremanje unosa
+
+## Ko koristi
+Superadmin i CTO (Hani) za brzo dodavanje zaposlenih.
+
+## Interakcija
+Popunjavanje forme i klik na "Add Person". Nakon dodavanja, osoba se može dalje urediti ili dodavati bucket-i.
+
+---
+
+![➕ Add People](images/add_people.jpg)
+
+---
+
+
+# 🛡️ Evaluation
+## Opis
+Stranica za pregled zaposlenika spremnih za promociju i upravljanje izvještajima.
+
+## Ključne funkcionalnosti
+- Lista zaposlenika spremnih za promociju
+- Pisanje komentara i izvještaja
+- Pregled svih izvještaja
 
 ## Ko koristi
 Superadmin i CTO.
 
 ## Interakcija
-Dodavanje kandidata klikom na "Add to Team", potvrda klikom na "Done".
+Klik na "See Reports" otvara detaljan pregled korisničkih izvještaja.
 
-![➕ Add New Member](images/add_member.png)
+![🛡️ Evaluation](images/evaluation.png)
 
 ---
 
@@ -489,28 +519,6 @@ Unos informacija o korisniku i klik na "Add Person" dugme. Bucket-i se mogu doda
 ---
 
 ![➕ Add People and Bucket Selection](images/add_people_and_bucket_selection_edit.jpg)
-
----
-
-# ➕ Add People
-
-## Opis
-Minimalistička stranica za brzi unos osnovnih podataka o novom zaposleniku bez direktnog vezivanja na postojeće bucket-e.
-
-## Ključne funkcionalnosti
-- Polja za unos imena, emaila i mobitela
-- Polje za unos opisa
-- Dugme "Add Person" za spremanje unosa
-
-## Ko koristi
-Superadmin i CTO (Hani) za brzo dodavanje zaposlenih.
-
-## Interakcija
-Popunjavanje forme i klik na "Add Person". Nakon dodavanja, osoba se može dalje urediti ili dodavati bucket-i.
-
----
-
-![➕ Add People](images/add_people.jpg)
 
 ---
 
@@ -599,35 +607,5 @@ Klik na "See Summary" za kratki pregled izvještaja ili na "Download PDF" za pre
 
 ![📄 Pregled korisničkih izvještaja](images/user_reports.jpg)
 
----
 
-# ➕ Add People and Bucket Selection
-
-## Opis
-
-Stranica omogućava superadminu i Hani-ju da pregledaju detalje o zaposleniku i dodaju ga u jedan ili više "bucket-a" na osnovu vještina i nivoa.
-
-## Ključne funkcionalnosti
-
-- Polje za pretragu zaposlenika ("Neki Search")
-- Dugme "Add People" za dodavanje novih zaposlenika
-- Prikaz profila zaposlenika: ime, email, broj telefona, opis
-- Pregled dodijeljenih vještina i nivoa (npr. "Software Eng | Lvl 1")
-- Dugme "Bucket +" za dodavanje novih bucket-a
-- Dugme "Edit Person" za uređivanje podataka zaposlenika
-- Sidebar za navigaciju kroz glavne sekcije (Skill Search, Buckets, Evaluation, People)
-
-## Ko koristi
-
-Superadmin i CTO (Hani) za brzo kreiranje novih profila i povezivanje sa vještinama.
-
-## Interakcija
-
-Popunjavanje forme, dodavanje bucket-a i nivoa klikom na dugme "Bucket +", te spremanje osobe klikom na "Edit Person".
-
----
-
-![📄 Add People and Bucket Selection](images/add_people_and_bucket_selection.jpg)
-
----
 
