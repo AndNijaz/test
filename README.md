@@ -600,12 +600,6 @@ Klik na "See Summary" otvara pregled izvještaja.
 ---
 
 # Team Lead 
-
-# Team Lead Dashboard
-
-## Opis
-Dashboard za Team Lead-ove pruža brz pregled performansi njihovog tima i omogućava ostavljanje povratnih informacija za članove tima.
-
 Team Lead ima pristup i funkcijama koje koristi Superadmin, kao što su:
 
 - **Team Overview View**
@@ -614,6 +608,11 @@ Team Lead ima pristup i funkcijama koje koristi Superadmin, kao što su:
 - **Delete Team**
 - **Manage Team Members**
 - **Add New Member**
+
+# Team Lead Dashboard
+
+## Opis
+Dashboard za Team Lead-ove pruža brz pregled performansi njihovog tima i omogućava ostavljanje povratnih informacija za članove tima.
 
 Time se omogućava vođenje i održavanje timova uz veću samostalnost.
 
@@ -716,7 +715,6 @@ Stranica omogućava korisniku (zaposleniku) da pretražuje dostupne karijerne pu
 
 - **Bucket Search**: Polje za pretragu bucket-a po nazivu.
 - **Prikaz trenutnih bucket-a**: Kartice sa imenom bucket-a, trenutnim nivoom (Current Level) i ciljnim nivoima (Goals).
-- **Edit Bucket**: Dugme koje omogućava korisniku da uređuje svoj napredak u bucket-u.
 - **Preporučeni bucket-i**: Bucket-i koje korisnik još nije odabrao prikazani su u sivoj boji sa opcijom "Take Bucket" za preuzimanje.
 - **Notifikacije**: Ikona za notifikacije u gornjem desnom uglu za obavještenja korisnika.
 
@@ -727,7 +725,7 @@ Zaposlenici koji žele pratiti svoj karijerni napredak i odabrati nove puteve ra
 ## Interakcija
 
 - Unos termina u polje **Bucket Search** filtrira dostupne bucket-e.
-- Klik na **Edit Bucket** otvara detalje i omogućava korisniku uređivanje trenutnog napretka.
+- Klik na **See Bucket** otvara detalje i omogućava korisniku uređivanje trenutnog napretka.
 - Klik na **Take Bucket** omogućava korisniku da preuzme novi bucket i započne novi razvojni put.
 
 ---
