@@ -81,7 +81,7 @@ Unos ključne riječi u polje za pretragu filtrira prikazane zaposlenike. Klik n
 
 ---
 
-# 🧠 Skill Search – Results View
+# Skill Search – Results View
 
 ## Opis
 Stranica prikazuje rezultate pretrage nakon što admin ili CTO pretraže određenu vještinu. Prikazuje direktne poklapanja i AI-predložene potencijalno dobre kandidate.
@@ -104,7 +104,7 @@ Unos termina u search bar i prikaz rezultata. Klik na "See Full" otvara detaljan
 
 ---
 
-# 🧠 Skill Search – No Direct Results View
+# Skill Search – No Direct Results View
 
 ## Opis
 Stranica prikazuje situaciju kada nema direktnih poklapanja za unesenu vještinu, ali se prikazuje AI-predložen kandidat koji ima srodne kompetencije.
@@ -127,7 +127,7 @@ Unos termina u search bar → prikaz potencijalnih kandidata. Klik na "See Full"
 
 ---
 
-# 🧱 Buckets View
+# Buckets View
 
 ## Opis
 Stranica omogućava superadminu i CTO-u da pregledaju, pretražuju i uređuju sve postojeće bucket-e (uloge) unutar firme.
@@ -150,7 +150,7 @@ Unos termina u "Bucket Search" filtrira bucket-e. Klik na "Add Bucket" otvara fo
 
 ---
 
-# 🧱 Bucket Detail View
+# Bucket Detail View
 
 ## Opis
 Detaljni pregled pojedinačnog bucket-a (uloge), gdje su prikazani svi nivo-i i njihove specifične informacije.
@@ -173,7 +173,7 @@ Klik na nivo u hijerarhiji prikazuje njegove detalje. Klik na "Edit Level" omogu
 
 ---
 
-# ➕ Add Bucket View
+# Add Bucket View
 
 ## Opis
 Stranica za kreiranje novog bucket-a (uloge) u firmi.
@@ -195,7 +195,7 @@ Unos naslova bucket-a i kreiranje nivoa. Klik na "Save Bucket" za potvrdu.
 
 ---
 
-# ✏️ Edit Bucket Level View
+# Edit Bucket Level View
 
 ## Opis
 Stranica omogućava uređivanje postojećeg nivoa unutar bucket-a.
@@ -218,7 +218,7 @@ Direktno uređivanje i spremanje sekcija.
 
 ---
 
-# ➕ Add Skill / Expectation / Tool / Knowledge Modal
+# Add Skill / Expectation / Tool / Knowledge Modal
 
 ## Opis
 Popup modal za dodavanje novih skillova, očekivanja, alata ili znanja u nivo.
@@ -239,7 +239,7 @@ Unos i spremanje novog elementa u odgovarajući odjeljak.
 
 ---
 
-# ➕ Add New Level to Bucket
+# Add New Level to Bucket
 
 ## Opis
 Prikazuje inicijalno stanje novog nivoa nakon dodavanja u bucket.
@@ -261,7 +261,7 @@ Unos informacija i spremanje novog nivoa.
 
 ---
 
-# 👥 Team Overview View
+# Team Overview View
 
 ## Opis
 Stranica prikazuje pregled svih formiranih timova u firmi.
@@ -283,7 +283,7 @@ Pretraga timova, pregled članova, uređivanje tima.
 
 ---
 
-# 👥 Team Overview
+# Team Overview
 
 ## Opis
 Stranica prikazuje detaljan pregled odabranog tima, uključujući članove, informacije o timu i povezane projekte.
@@ -306,7 +306,7 @@ Klik na članove za upravljanje, edit dugme za izmjenu podataka tima, delete dug
 
 ---
 
-# ✏️ Edit Team
+# Edit Team
 
 ## Opis
 Stranica za uređivanje podataka odabranog tima, uključujući naziv, tehnologije i projekat na kojem tim radi.
@@ -329,7 +329,7 @@ Unos novih vrijednosti u polja, dodavanje tehnologija kroz dropdown, spremanje p
 
 ---
 
-# ❌ Delete Team
+# Delete Team
 
 ## Opis
 Modal za potvrdu brisanja tima sa svim njegovim članovima i povezanim podacima.
@@ -351,7 +351,7 @@ Klik na "Delete" dugme trajno briše tim; klik na "Cancel" zatvara modal bez akc
 
 ---
 
-# 👥 Manage Team Members
+# Manage Team Members
 
 ## Opis
 Stranica za upravljanje članovima tima — dodavanje novih, uklanjanje postojećih i ažuriranje njihovih uloga.
@@ -374,7 +374,8 @@ Klik na dugme "Add Member" za dodavanje, dugme za brisanje člana pored imena, i
 
 ---
 
-# ➕ Add New Member
+# Add New Member
+
 ## Opis
 Ekran za dodavanje novih članova u tim, sa odabirom pozicije.
 
@@ -393,7 +394,8 @@ Dodavanje kandidata klikom na "Add to Team", potvrda klikom na "Done".
 
 ---
 
-# 👥 People Overview
+# People Overview
+
 ## Opis
 Stranica za administraciju zaposlenika, omogućava pretragu, uređivanje i dodavanje zaposlenih.
 
@@ -442,7 +444,7 @@ Popunjavanje forme, dodavanje bucket-a i nivoa klikom na dugme "Bucket +", te sp
 
 ---
 
-# ➕ Add People
+# Add People
 
 ## Opis
 Minimalistička stranica za brzi unos osnovnih podataka o novom zaposleniku bez direktnog vezivanja na postojeće bucket-e.
@@ -464,7 +466,7 @@ Popunjavanje forme i klik na "Add Person". Nakon dodavanja, osoba se može dalje
 
 ---
 
-# ✏️ Edit People
+# Edit People
 
 ## Opis
 Stranica za uređivanje već postojećih zaposlenika, sa opcijama izmjene podataka i dodavanja novih bucket-a.
@@ -485,7 +487,7 @@ Izmjena podataka direktno u formi i spremanje izmjena klikom na "Edit Person" du
 
 ---
 
-# 🧹 Bucket Level Selection
+# Bucket Level Selection
 
 ## Opis
 Detaljna stranica gdje superadmin i CTO mogu odabrati nivo vještine za svakog bucket-a koji osoba ima.
@@ -507,7 +509,8 @@ Klik na bucket prikazuje nivoe koje korisnik može dostići. Odabir nivoa automa
 
 ---
 
-# 🛡️ Evaluation
+# Evaluation
+
 ## Opis
 Stranica za pregled zaposlenika spremnih za promociju i upravljanje izvještajima.
 
@@ -526,7 +529,7 @@ Klik na "See Reports" otvara detaljan pregled korisničkih izvještaja.
 
 ---
 
-# 👤 Pregled korisnika (Modal)
+# Pregled korisnika (Modal)
 
 ## Opis
 Modal koji se otvara klikom na "See Reports" dugme. Prikazuje osnovne informacije o zaposleniku, trenutni nivo vještina i ocjene.
@@ -548,7 +551,7 @@ Klik na "See Reports" otvara modal. Unutar modala može se kliknuti na dugme za 
 
 ---
 
-# 📄 Pregled korisničkih izvještaja
+# Pregled korisničkih izvještaja
 
 ## Opis
 Stranica prikazuje detaljne izvještaje korisnika, sa istorijom i projektima povezanim sa napredovanjem u vještinama.
@@ -569,7 +572,8 @@ Klik na "See Summary" za kratki pregled izvještaja ili na "Download PDF" za pre
 
 ![📄 Pregled korisničkih izvještaja](images/user_reports.jpg)
 
-# 📋 Pregled sažetka izvještaja
+# Pregled sažetka izvještaja
+
 ## Opis
 Stranica prikazuje skraćeni sažetak izvještaja zaposlenika.
 
