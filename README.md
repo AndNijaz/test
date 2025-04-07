@@ -15,6 +15,12 @@
 - [➕ Add Skill / Expectation / Tool / Knowledge Modal](#-add-skill--expectation--tool--knowledge-modal)
 - [➕ Add New Level to Bucket](#-add-new-level-to-bucket)
 - [👥 Team Overview View](#-team-overview-view)
+- [📊 Admin Dashboard](#-admin-dashboard)
+- [👥 Team Overview](#-team-overview)
+- [✏️ Edit Team](#-edit-team)
+- [❌ Delete Team](#-delete-team)
+- [👥 Manage Team Members](#-manage-team-members)
+
 
 ---
 
