@@ -598,3 +598,32 @@ Klik na "See Summary" za kratki pregled izvještaja ili na "Download PDF" za pre
 
 ![📄 Pregled korisničkih izvještaja](images/user_reports.jpg)
 
+---
+
+# ➕ Add People and Bucket Selection
+
+## Opis
+
+Stranica omogućava superadminu i CTO-u da dodaju nove zaposlenike i odmah ih povežu sa bucket-ima (kompetencijama) zajedno sa definisanim nivoima vještina.
+
+## Ključne funkcionalnosti
+
+- Unos osnovnih podataka (ime, email, broj telefona, opis)
+- Dodavanje bucket-a i nivoa vještina direktno prilikom kreiranja osobe
+- Vizualno prikazani svi povezani bucket-i i nivoi
+- Dugme za uređivanje profila ("Edit Person")
+
+## Ko koristi
+
+Superadmin i CTO (Hani) za brzo kreiranje novih profila i povezivanje sa vještinama.
+
+## Interakcija
+
+Popunjavanje forme, dodavanje bucket-a i nivoa klikom na dugme "Bucket +", te spremanje osobe klikom na "Edit Person".
+
+---
+
+![📄 Add People and Bucket Selection](images/add_people_and_bucket_selection.jpg)
+
+---
+
