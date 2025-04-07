@@ -243,3 +243,115 @@ Pretraga timova, pregled članova, uređivanje tima.
 ![👥 Team Overview View](images/team_overview_view.png)
 
 ---
+
+# 📊 Admin Dashboard
+
+## Opis
+Stranica prikazuje pregled statusa promocija, performansi timova i analitike vještina unutar firme.
+
+## Ključne funkcionalnosti
+- Pregled pending promocija
+- Prikaz promocija po kvartalima
+- Tabela najboljih timova (Leaderboard)
+- Analiza vještina koje zahtijevaju najviše vremena za razvoj
+
+## Ko koristi
+Superadmin i CTO (Hani) za strateško praćenje razvoja i planiranje intervencija.
+
+## Interakcija
+Pregled sažetih podataka, klik na promocije za više detalja, navigacija ka detaljima timova i zaposlenih.
+
+---
+
+![📊 Admin Dashboard](images/superadmin_hani_dashboard.jpg)
+
+---
+
+# 👥 Team Overview
+
+## Opis
+Stranica prikazuje detaljan pregled odabranog tima, uključujući članove, informacije o timu i povezane projekte.
+
+## Ključne funkcionalnosti
+- Lista članova tima
+- Informacije o nazivu, opisu i tehnologijama tima
+- Veza sa aktivnim projektima
+- Opcije za uređivanje i brisanje tima
+
+## Ko koristi
+Team Lead i Superadmin za organizaciju i analizu timova.
+
+## Interakcija
+Klik na članove za upravljanje, edit dugme za izmjenu podataka tima, delete dugme za brisanje tima.
+
+---
+
+![👥 Team Overview](images/pregled_odabranog_tima_novi_izgled.jpg)
+
+---
+
+# ✏️ Edit Team
+
+## Opis
+Stranica za uređivanje podataka odabranog tima, uključujući naziv, tehnologije i projekat na kojem tim radi.
+
+## Ključne funkcionalnosti
+- Editabilna polja za naziv i opis tima
+- Dodavanje/brisanje tehnologija
+- Povezivanje sa projektom
+- Spremanje izmjena
+
+## Ko koristi
+Team Lead i Superadmin za održavanje ažurnih informacija o timovima.
+
+## Interakcija
+Unos novih vrijednosti u polja, dodavanje tehnologija kroz dropdown, spremanje promjena klikom na dugme "Save".
+
+---
+
+![✏️ Edit Team](images/uredivanje_odabranog_tima.jpg)
+
+---
+
+# ❌ Delete Team
+
+## Opis
+Modal za potvrdu brisanja tima sa svim njegovim članovima i povezanim podacima.
+
+## Ključne funkcionalnosti
+- Prikaz upozorenja o trajnom brisanju
+- Dugme za potvrdu brisanja
+- Dugme za otkazivanje akcije
+
+## Ko koristi
+Team Lead i Superadmin u slučaju gašenja ili reorganizacije tima.
+
+## Interakcija
+Klik na "Delete" dugme trajno briše tim; klik na "Cancel" zatvara modal bez akcije.
+
+---
+
+![❌ Delete Team](images/brisanje_tima.jpg)
+
+---
+
+# 👥 Manage Team Members
+
+## Opis
+Stranica za upravljanje članovima tima — dodavanje novih, uklanjanje postojećih i ažuriranje njihovih uloga.
+
+## Ključne funkcionalnosti
+- Prikaz svih trenutnih članova tima
+- Dodavanje novih članova
+- Brisanje članova iz tima
+- Uređivanje uloga članova
+
+## Ko koristi
+Team Lead i Superadmin za održavanje pravilne strukture tima.
+
+## Interakcija
+Klik na dugme "Add Member" za dodavanje, dugme za brisanje člana pored imena, inline edit za uloge.
+
+---
+
+![👥 Manage Team Members](images/upravljanje_clanova_tima.jpg)
