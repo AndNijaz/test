@@ -524,6 +524,9 @@ Superadmin i CTO.
 
 ## Interakcija
 Klik na "See Reports" otvara detaljan pregled korisničkih izvještaja.
+Klik na "Leave Comm" otvara modal za unos komentara
+Klik na "See report" otvara modal za SuperAdmin report
+Klik na "Promote" promotea usera
 
 ![🛡️ Evaluation](images/evaluation.png)
 
@@ -532,7 +535,7 @@ Klik na "See Reports" otvara detaljan pregled korisničkih izvještaja.
 # Pregled korisnika (Modal)
 
 ## Opis
-Modal koji se otvara klikom na "See Reports" dugme. Prikazuje osnovne informacije o zaposleniku, trenutni nivo vještina i ocjene.
+Modal koji se otvara klikom na "See Reports" dugme. Prikazuje informacije o zaposleniku, trenutni nivo, da li je taj nivo spreman za promotion, listu kriterija koje je zadovoljio da predje na novi nivo (sentimentirana iz svig reportova), summary svih reportova.
 
 ## Ključne funkcionalnosti
 - Prikaz imena, vještina i nivoa
