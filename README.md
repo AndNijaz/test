@@ -524,24 +524,6 @@ Klik na "See Reports" otvara detaljan pregled korisničkih izvještaja.
 
 ---
 
-# 📋 Pregled sažetka izvještaja
-## Opis
-Stranica prikazuje skraćeni sažetak izvještaja zaposlenika.
-
-## Ključne funkcionalnosti
-- Vizualni pregled ciljeva
-- Sažetak izvještaja
-
-## Ko koristi
-Superadmin i CTO.
-
-## Interakcija
-Klik na "See Summary" otvara pregled izvještaja.
-
-![📋 Pregled sažetka izvještaja](images/see_summary.png)
-
----
-
 # 👤 Pregled korisnika (Modal)
 
 ## Opis
@@ -584,6 +566,24 @@ Klik na "See Summary" za kratki pregled izvještaja ili na "Download PDF" za pre
 ---
 
 ![📄 Pregled korisničkih izvještaja](images/user_reports.jpg)
+
+# 📋 Pregled sažetka izvještaja
+## Opis
+Stranica prikazuje skraćeni sažetak izvještaja zaposlenika.
+
+## Ključne funkcionalnosti
+- Vizualni pregled ciljeva
+- Sažetak izvještaja
+
+## Ko koristi
+Superadmin i CTO.
+
+## Interakcija
+Klik na "See Summary" otvara pregled izvještaja.
+
+![📋 Pregled sažetka izvještaja](images/see_summary.png)
+
+---
 
 
 
