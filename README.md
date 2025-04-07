@@ -31,6 +31,7 @@
 - [🧹 Bucket Level Selection](#bucket-level-selection)
 - [👤 Pregled korisnika (Modal)](#pregled-korisnika-modal)
 - [📄 Pregled korisničkih izvještaja](#pregled-korisnickih-izvjestaja)
+- [➕ Add People and Bucket Selectio](#pregled-korisnickih-izvjestaja)
 
 
 ---
