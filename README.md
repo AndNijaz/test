@@ -605,14 +605,17 @@ Klik na "See Summary" za kratki pregled izvještaja ili na "Download PDF" za pre
 
 ## Opis
 
-Stranica omogućava superadminu i CTO-u da dodaju nove zaposlenike i odmah ih povežu sa bucket-ima (kompetencijama) zajedno sa definisanim nivoima vještina.
+Stranica omogućava superadminu i Hani-ju da pregledaju detalje o zaposleniku i dodaju ga u jedan ili više "bucket-a" na osnovu vještina i nivoa.
 
 ## Ključne funkcionalnosti
 
-- Unos osnovnih podataka (ime, email, broj telefona, opis)
-- Dodavanje bucket-a i nivoa vještina direktno prilikom kreiranja osobe
-- Vizualno prikazani svi povezani bucket-i i nivoi
-- Dugme za uređivanje profila ("Edit Person")
+- Polje za pretragu zaposlenika ("Neki Search")
+- Dugme "Add People" za dodavanje novih zaposlenika
+- Prikaz profila zaposlenika: ime, email, broj telefona, opis
+- Pregled dodijeljenih vještina i nivoa (npr. "Software Eng | Lvl 1")
+- Dugme "Bucket +" za dodavanje novih bucket-a
+- Dugme "Edit Person" za uređivanje podataka zaposlenika
+- Sidebar za navigaciju kroz glavne sekcije (Skill Search, Buckets, Evaluation, People)
 
 ## Ko koristi
 
