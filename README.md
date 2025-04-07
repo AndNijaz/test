@@ -272,7 +272,7 @@ Stranica prikazuje pregled svih formiranih timova u firmi.
 - Dugmad "View" i "Edit"
 
 ## Ko koristi
-Superadmin i CTO (Hani) za organizaciju timova.
+Superadmin i CTO (Hani) za organizaciju timova & Team Lead
 
 ## Interakcija
 Pretraga timova, pregled članova, uređivanje tima.
@@ -293,6 +293,7 @@ Stranica prikazuje detaljan pregled odabranog tima, uključujući članove, info
 - Informacije o nazivu, opisu i tehnologijama tima
 - Veza sa aktivnim projektima
 - Opcije za uređivanje i brisanje tima
+- Team Lead i SuperAdmin mogu da ostave report na clana tima
 
 ## Ko koristi
 Team Lead i Superadmin za organizaciju i analizu timova.
@@ -316,9 +317,10 @@ Stranica za uređivanje podataka odabranog tima, uključujući naziv, tehnologij
 - Dodavanje/brisanje tehnologija
 - Povezivanje sa projektom
 - Spremanje izmjena
+- Team Lead i SuperAdmin mogu da ostave report na clana tima
 
 ## Ko koristi
-Team Lead i Superadmin za održavanje ažurnih informacija o timovima.
+Team Lead i Superadmin za održavanje ažurnih informacija o timovima. 
 
 ## Interakcija
 Unos novih vrijednosti u polja, dodavanje tehnologija kroz dropdown, spremanje promjena klikom na dugme "Save".
@@ -361,7 +363,8 @@ Stranica za upravljanje članovima tima — dodavanje novih, uklanjanje postoje�
 - Dodavanje novih članova
 - Brisanje članova iz tima
 - Uređivanje uloga članova
-
+- Team Lead i SuperAdmin mogu da ostave report na clana tima
+- 
 ## Ko koristi
 Team Lead i Superadmin za održavanje pravilne strukture tima.
 
