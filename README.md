@@ -21,16 +21,15 @@
 - [Delete Team](#delete-team)
 - [Manage Team Members](#manage-team-members)
 - [Add New Member](#add-new-member)
-- [Evaluation](#evaluation)
 - [People Overview](#people-overview)
-- [Add New Member](#add-new-member)
-- [Pregled sažetka izvještaja](#pregled-sažetka-izvještaja)
 - [Add People and Bucket Selection](#add-people-and-bucket-selection)
 - [Add People](#add-people)
 - [Edit People](#edit-people)
 - [Bucket Level Selection](#bucket-level-selection)
+- [Evaluation](#evaluation)
 - [Pregled korisnika (Modal)](#pregled-korisnika-modal)
 - [Pregled korisničkih izvještaja](#pregled-korisničkih-izvještaja)
+- [Pregled sažetka izvještaja](#pregled-sažetka-izvještaja)
 
 
 --- 
